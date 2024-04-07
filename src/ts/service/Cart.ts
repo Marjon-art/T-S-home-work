@@ -6,8 +6,12 @@ export default class Cart {
     add(item: Buyable): void {
         this._items.push(item);
     }
-
     get items(): Buyable[] {
         return [...this._items]; 
     }
+}
+
+
+function price() {
+    return  
 }
